@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Color Art</title>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css" />
+</head>
+
+<body>
+    <h1>Color Art</h1>
+
+    <!--box to hold the squares-->
+    <!--div stands for division and is used to make boxes-->
+    <div id="grid">
+        <!--1st row-->
+        <div>
+            <div class="square" id="square1"></div>
+            <div class="square" id="square2"></div>
+            <div class="square" id="square3"></div>
+        </div>
+
+        <!--2nd row-->
+        <div>
+            <div class="square" id="square4"></div>
+            <div class="square" id="square5"></div>
+            <div class="square" id="square6"></div>
+        </div>
+
+        <!--3rd row-->
+        <div>
+            <div class="square" id="square7"></div>
+            <div class="square" id="square8"></div>
+            <div class="square" id="square9"></div>
+        </div>
+    </div>
+
+    <!--box to hold the grid editing controls-->
+    <div id="controlPanel">
+        <p>Background color:</p>
+        <button id="yellowButton">Yellow</button>
+        <p id="selectedBackgroundParagraph">Selected background: none</p>
+
+        <p>Opacity:</p>
+        <button id="opacity25Button">25%</button>
+        <p id="selectedOpacityParagraph">Selected opacity: none</p>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
